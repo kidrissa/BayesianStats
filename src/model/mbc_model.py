@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 from scipy.optimize import minimize
 
 
-chdir("C:/Users/idris/Desktop/ENSAE/S1_3A/Statistique_Bayesienne/BayesianStats/")
+chdir("/home/ikonkobo/Desktop/ENSAE/S1_3A/Statistique_Bayesienne/BayesianClustering")
 
 
 class MBClustering:
