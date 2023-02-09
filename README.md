@@ -15,6 +15,8 @@ A short report is associated with this repository, and can be found [here](), de
 
 * The implementation is done in Python, and the code is available in the `src/model` folder.
 * The notebooks used to generate the results are available in the `notebook` folder.
+    - The notebook `MBC_viz.ipynb` contains results of the application of Model Based Clustering method
+    - The notebook `DBC_viz.ipynb` contains results of Dirichlet based clustering method
 
 ## Data used
 
