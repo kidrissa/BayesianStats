@@ -1,16 +1,19 @@
-from os import chdir
-from numpy import array, zeros, ones, vstack, trace, exp, pi, sqrt, log
+import os
+import sys
+from numpy import (
+    array, zeros, ones, vstack,
+    trace, exp, pi, sqrt, log
+)
 from pandas import DataFrame
 import statsmodels.api as sm
 from sklearn.cluster import KMeans
 from scipy.optimize import minimize
-
-
-chdir("/home/ikonkobo/Desktop/ENSAE/S1_3A/Statistique_Bayesienne/BayesianClustering")
+if os.getcwd() not in sys.path:
+    sys.path.append(os.getcwd())
 
 
 class MBClustering:
-    def __init__(self, data:DataFrame, K:int) -> None:
+    def __init__(self, data: DataFrame, K: int) -> None:
         self.X = data.iloc[:, 2:].values
         self.y = data.iloc[:, [1]].values.reshape(-1)
         self.nClusters = K

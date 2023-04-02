@@ -25,7 +25,7 @@ The data set `mcs_ds_edited_iter_shuffled.csv` used in the project is available 
 ## References
 
 The resources used for the project are the follows: 
-```bash
+```BibTeX
 @article{quintana,
 author = {Quintana, Fernando},
 year = {2006},
@@ -38,7 +38,7 @@ doi = {10.1016/j.jspi.2004.09.015}
 }
 ```
 
-```bash
+```BibTeX
 @article{data,
 author = {Singh, Abhilash and Kotiyal, Vaibhav and Sharma, Sandeep and Nagar, Jaiprakash and Lee, Cheng-Chi},
 year = {2020},
