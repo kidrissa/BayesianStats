@@ -5,16 +5,22 @@
 
 <p align="center">Project for the course "Bayesian Statistics" at ENSAE Paris.  <br/> </p>
 
-## Introduction
+<p align="center">
+    <a href="https://fr.overleaf.com/read/psbhmxhmpgst">
+        <img src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white" alt="SOURCE CODE"/> 
+    </a>
+</p>
+
+
+## Overview
 
 In this project, we implement two methods described related to bayesian clustering in the paper [A predictive view of Bayesian clustering](https://joshuachan.org/papers/AD_ML.pdf) by Fernando A. Quintana.
 
-A short report is associated with this repository, and can be found [here](), describing the methods and the results obtained.
 
 ## Files and folders
 
-* The implementation is done in Python, and the code is available in the `src/model` folder.
-* The notebooks used to generate the results are available in the `notebook` folder.
+* The implementation is done in Python, and the code is available in the `./src/models` folder.
+* The notebooks used to generate the results are available in the `notebooks` folder.
     - The notebook `MBC_viz.ipynb` contains results of the application of Model Based Clustering method
     - The notebook `DBC_viz.ipynb` contains results of Dirichlet based clustering method
 
