@@ -14,8 +14,11 @@
 
 ## Overview
 
-In this project, we implement two methods described related to bayesian clustering in the paper [A predictive view of Bayesian clustering](https://joshuachan.org/papers/AD_ML.pdf) by Fernando A. Quintana.
+In this project, we implement two methods related to bayesian clustering described in the paper [A predictive view of Bayesian clustering]() by Fernando A. Quintana.
 
+## Models
+
+### Model-Based Clustering
 
 ## Files and folders
 
